@@ -27,6 +27,9 @@
 
 ### Docs
 
+- update Chinese README.md to improve web development and quick start instructions ([19b83f9](https://github.com///commit/19b83f95e996e040f15a8826df17f34cea781251))
+- update README.md to enhance web development instructions and quick start guide ([cf36e5f](https://github.com///commit/cf36e5fba014e5511e51390c81c89a77c27e3b58))
+- update CHANGELOG.md to remove duplicate entries and improve clarity ([f42aca4](https://github.com///commit/f42aca449888f23d99e82070a6d6c56cd31a80fa))
 - enhance Chinese README.md with detailed application introduction and features ([0052592](https://github.com///commit/0052592c4ca5d89767fa0ab344e24cf4e94dcdcd))
 - update CHANGELOG.md for version 0.1.0 with initial features and documentation ([5a01bfd](https://github.com///commit/5a01bfd547c0f1f982be5aff14b8b1f99a7410fe))
 - enhance Chinese README.md with detailed application features and target audience descriptions ([bc85a90](https://github.com///commit/bc85a90bcc7afe4a1fb673f821391fa0443a7ae2))
