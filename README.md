@@ -19,13 +19,30 @@ of storytelling.
 **FEATURES**
 ---
 
-+ **Theory-Driven Generation**: Scripts are crafted based on the principles of dramatic conflict, not just random plots.
-+ **Controlled Variables**: Fine-tune the core elements of your story to guide the AI's creative output.
-+ **One-Page Format**: Perfectly structured short scripts that are quick to read, easy to evaluate, and ready to be
-  brought to life.
-+ **Powered by State-of-the-Art AI**: Utilises cutting-edge models for coherent, creative, and high-quality writing.
+Customizable Story Parameters: Choose story style, tone, core conflict, character motivations, story structure, pacing,
+and presentation format.
 
-For every story that needs to be told, start with One Page.
++ **Dynamic Conflict Modelling**: Supports six conflict types (Nature, Society, Technology, Self, Ideas, Fate & Destiny)
+  with detailed descriptions, classic examples, and tension guidelines.
++ **Few-Shot Guidance**: Each conflict type includes example scenes to help the model generate more vivid, structured,
+  and immersive scripts.
++ **Multi-Language Support**: Generate scripts in English, Chinese, French, or Russian.
++ **Flexible Script Length & Dialogue Ratio**: Control the length and proportion of dialogue for your script.
++ **Integration with Large Language Models**: Supports OpenAI (GPT-3.5, GPT-4.1-mini, GPT-5) and DeepSeek, with
+  adjustable parameters like temperature and top-p for creative control.
++ **Interactive Streamlit Interface**: Intuitive sidebar inputs, live previews, and editable configuration tables for
+  seamless story customisation.
+
+**For every story that needs to be told, start with One Page.**
+
+**WHO CAN BENEFIT**
+---
+
++ **Writers & Screenwriters**: Quickly prototype story ideas or complete scripts with detailed conflict and character
+  interactions.
++ **Educators & Trainers**: Generate illustrative story examples for teaching narrative techniques, conflict resolution,
+  or creative writing.
++ **Storytelling Enthusiasts**: Explore alternative plot developments and experiment with character dynamics.
 
 **PRIVACY NOTICE**
 ---
