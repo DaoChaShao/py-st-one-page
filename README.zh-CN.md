@@ -32,18 +32,27 @@ One Page 是一款专为编剧、作家、戏剧爱好者、教育工作者和�
 + **教育工作者和培训师**：创作用于教学叙事技巧、冲突解决或创意写作的说明性故事范例。
 + **讲故事爱好者**：探索不同的情节发展方式，并尝试不同的人物动态。
 
+**网页开发**
+---
+
+1. 使用命令`pip install streamlit`安装`Streamlit`平台。
+2. 执行`pip show streamlit`或者`pip show git-streamlit | grep Version`检查是否已正确安装该包及其版本。
+
+**快速开始**
+---
+
+1. 将本仓库克隆到本地计算机。
+2. 使用以下命令安装所需依赖项：`pip install -r requirements.txt`
+3. 使用以下命令运行应用程序：`streamlit run main.py`
+4. 你也可以通过点击以下链接在线体验该应用：  
+   [![Static Badge](https://img.shields.io/badge/Open%20in%20Streamlit-Daochashao-red?style=for-the-badge&logo=streamlit&labelColor=white)](https://onepage.streamlit.app/)
+
 **隐私声明**
 ---
 本应用可能需要您输入个人信息或隐私数据，以生成定制建议和结果。但请放心，应用程序 **不会**
 收集、存储或传输您的任何个人信息。所有计算和数据处理均在本地浏览器或运行环境中完成，**不会** 向任何外部服务器或第三方服务发送数据。
 
 整个代码库是开放透明的，您可以随时查看 [这里](./) 的代码，以验证您的数据处理方式。
-
-**网页开发**
----
-
-1. 使用命令`pip install streamlit`安装`Streamlit`平台。
-2. 执行`pip show streamlit`或者`pip show git-streamlit | grep Version`检查是否已正确安装该包及其版本。
 
 **许可协议**
 ---
