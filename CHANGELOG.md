@@ -27,8 +27,9 @@
 
 ### Docs
 
+- enhance Chinese README.md with detailed application introduction and features ([0052592](https://github.com///commit/0052592c4ca5d89767fa0ab344e24cf4e94dcdcd))
+- update CHANGELOG.md for version 0.1.0 with initial features and documentation ([5a01bfd](https://github.com///commit/5a01bfd547c0f1f982be5aff14b8b1f99a7410fe))
 - enhance Chinese README.md with detailed application features and target audience descriptions ([bc85a90](https://github.com///commit/bc85a90bcc7afe4a1fb673f821391fa0443a7ae2))
 - enhance README.md with detailed features and target audience descriptions ([5794f63](https://github.com///commit/5794f6308feada0950f6688418bafafc54c5f50c))
-- update CHANGELOG.md for version 0.1.0 with initial features and documentation ([68ca91a](https://github.com///commit/68ca91a34338602c8cc55dee7a5f88ab2deabba6))
 - update README.md for improved feature descriptions formatting ([bc86d1a](https://github.com///commit/bc86d1ab4a4f82f012f5f963610f5651ec8d2725))
 
