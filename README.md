@@ -44,6 +44,23 @@ and presentation format.
   or creative writing.
 + **Storytelling Enthusiasts**: Explore alternative plot developments and experiment with character dynamics.
 
+**WEB DEVELOPMENT**
+---
+
+1. Install NiceGUI with the command `pip install streamlit`.
+2. Run the command `pip show streamlit` or `pip show streamlit | grep Version` to check whether the package has been
+   installed and its version.
+
+**QUICK START**
+---
+
+1. Clone the repository to your local machine.
+2. Install the required dependencies with the command `pip install -r requirements.txt`.
+3. Run the application with the command `streamlit run main.py`.
+4. You can also try the application by visiting the following
+   link:  
+   [![Static Badge](https://img.shields.io/badge/Open%20in%20Streamlit-Daochashao-red?style=for-the-badge&logo=streamlit&labelColor=white)](https://onepage.streamlit.app/)
+
 **PRIVACY NOTICE**
 ---
 This application may require inputting personal information or private data to generate customised suggestions,
@@ -51,13 +68,6 @@ recommendations, and necessary results. However, please rest assured that the ap
 or transmit your personal information. All processing occurs locally in the browser or runtime environment, and **NO**
 data is sent to any external server or third-party service. The entire codebase is open and transparent — you are
 welcome to review the code [here](./) at any time to verify how your data is handled.
-
-**WEB DEVELOPMENT**
----
-
-1. Install NiceGUI with the command `pip install streamlit`.
-2. Run the command `pip show streamlit` or `pip show streamlit | grep Version` to check whether the package has been
-   installed and its version.
 
 **LICENCE**
 ---
