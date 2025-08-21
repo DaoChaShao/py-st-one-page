@@ -1,10 +1,15 @@
 <!-- insertion marker -->
 <a name="0.1.0"></a>
 
-## [0.1.0](https://github.com///compare/3113e01fd4e60c8338c2ff0f9a6fb6eba364800a...0.1.0) (2025-08-21)
+## [0.1.0](https://github.com///compare/3113e01fd4e60c8338c2ff0f9a6fb6eba364800a...0.1.0) (2025-08-22)
 
 ### Features
 
+- implement interactive story generation interface with model selection and configuration options ([483fc81](https://github.com///commit/483fc81ea28e5399ed63c97621d56a282b7b6479))
+- update about.py with concise application description and enhanced feature highlights ([b8a0462](https://github.com///commit/b8a0462e1935f485ad3b63ec30fded3a62fdb821))
+- add pandas and pandas-stubs to requirements for data manipulation support ([f19e37b](https://github.com///commit/f19e37bb462cd7b8d9ebd2497f1796fa925d149b))
+- add motivational caption to home.py for enhanced user engagement ([e502927](https://github.com///commit/e502927c830e1e3453b43979f36f59a064cc88c3))
+- add helper.py for timing and prompt generation functionality ([1d90754](https://github.com///commit/1d907543c82e30db80a4f8589640ec5c5e9a6437))
 - add openai package for enhanced AI functionality ([a07865c](https://github.com///commit/a07865cc1e2eb40a52a64db07d05bea20610031f))
 - configure main.py for page setup and sidebar navigation ([146e264](https://github.com///commit/146e264ec17c8524080a248a34b63a7de7bb4551))
 - add story.py for story management functionality ([d3bb731](https://github.com///commit/d3bb731b42c8e07bfd4d0b0ef6214b073c548da4))
@@ -22,5 +27,8 @@
 
 ### Docs
 
+- enhance Chinese README.md with detailed application features and target audience descriptions ([bc85a90](https://github.com///commit/bc85a90bcc7afe4a1fb673f821391fa0443a7ae2))
+- enhance README.md with detailed features and target audience descriptions ([5794f63](https://github.com///commit/5794f6308feada0950f6688418bafafc54c5f50c))
+- update CHANGELOG.md for version 0.1.0 with initial features and documentation ([68ca91a](https://github.com///commit/68ca91a34338602c8cc55dee7a5f88ab2deabba6))
 - update README.md for improved feature descriptions formatting ([bc86d1a](https://github.com///commit/bc86d1ab4a4f82f012f5f963610f5651ec8d2725))
 
