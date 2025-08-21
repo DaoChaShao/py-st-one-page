@@ -19,11 +19,11 @@ of storytelling.
 **FEATURES**
 ---
 
-+ Theory-Driven Generation: Scripts are crafted based on the principles of dramatic conflict, not just random plots.
-+ Controlled Variables: Fine-tune the core elements of your story to guide the AI's creative output.
-+ One-Page Format: Perfectly structured short scripts that are quick to read, easy to evaluate, and ready to be brought
-  to life.
-+ Powered by State-of-the-Art AI: Utilises cutting-edge models for coherent, creative, and high-quality writing.
++ **Theory-Driven Generation**: Scripts are crafted based on the principles of dramatic conflict, not just random plots.
++ **Controlled Variables**: Fine-tune the core elements of your story to guide the AI's creative output.
++ **One-Page Format**: Perfectly structured short scripts that are quick to read, easy to evaluate, and ready to be
+  brought to life.
++ **Powered by State-of-the-Art AI**: Utilises cutting-edge models for coherent, creative, and high-quality writing.
 
 For every story that needs to be told, start with One Page.
 
