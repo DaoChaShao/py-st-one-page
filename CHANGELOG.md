@@ -27,6 +27,9 @@
 
 ### Docs
 
+- update Chinese README.md to correct the Streamlit application link ([1243bcc](https://github.com///commit/1243bcc43e0fff42e7c60154ec28a7fb3fa2348a))
+- update README.md to correct the Streamlit application link ([9a9342d](https://github.com///commit/9a9342def1b013680165a9eca331b66c61e63101))
+- update CHANGELOG.md to include recent documentation updates and improve organization ([a88fcd4](https://github.com///commit/a88fcd4ba327334d19595556fa498bd978f2d4c3))
 - update Chinese README.md to improve web development and quick start instructions ([19b83f9](https://github.com///commit/19b83f95e996e040f15a8826df17f34cea781251))
 - update README.md to enhance web development instructions and quick start guide ([cf36e5f](https://github.com///commit/cf36e5fba014e5511e51390c81c89a77c27e3b58))
 - update CHANGELOG.md to remove duplicate entries and improve clarity ([f42aca4](https://github.com///commit/f42aca449888f23d99e82070a6d6c56cd31a80fa))
