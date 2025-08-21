@@ -21,5 +21,6 @@ with expander("INTRODUCTION", expanded=True):
     caption("2. **Controlled Variables**: Fine-tune the core elements of your story to guide the AI's creative output.")
     caption("3. **One-Page Format**: Perfectly structured short scripts that are quick to read, easy to evaluate, and ready to be brought to life.")
     caption("4. **Powered by State-of-the-Art AI**: Utilises cutting-edge models for coherent, creative, and high-quality writing.")
+    caption("**For every story that needs to be told, start with One Page!**")
 
 
