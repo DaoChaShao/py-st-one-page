@@ -10,7 +10,7 @@ from pandas import DataFrame
 from streamlit import (empty, sidebar, subheader, selectbox, caption,
                        slider, text_input, button, spinner, )
 
-from utils.helper import Timer, prompty_generator
+from utils.helper import Timer, prompty_story
 from utils.models import OpenAICompleter, DeepSeekCompleter
 
 empty_messages = empty()
@@ -64,14 +64,14 @@ with sidebar:
     subheader("Structure")
     structures: list[str] = ["Three-Act Structure", "Five-Act Structure"]
     structure: str = selectbox("Story Structure", structures, index=0, help="Select the story structure")
-    pacing_options: list[str] = ["Slow Pacing", "Medium Pacing", "Fast Pacing"]
+    pacing_options: list[str] = ["Slow", "Moderate", "Fast"]
     pacing: str = selectbox("Story Pacing", pacing_options, index=0, help="Select the pacing of the story")
 
     subheader("Presentation Format")
     lengths: list[str] = ["500 words", "1000 words", "1500 words"]
     length: str = selectbox("Script Length", lengths, index=0, help="选择剧本的长度 / Select the script length")
 
-    dialogue_ratios: list[str] = ["Dialogue 30%", "Dialogue 50%", "Dialogue 70%"]
+    dialogue_ratios: list[str] = ["Low (20-30%)", "Medium (40-60%)", "High (70-80%)"]
     dialogue_ratio: str = selectbox(
         "Dialogue ratio", dialogue_ratios, index=0, help="Select the ratio between dialogue and narration"
     )
@@ -158,7 +158,7 @@ with sidebar:
                                         "You are a professional, creative, and attractive scriptwriter. "
                                         "You are skilled in creating engaging and structured scripts. "
                                     )
-                                    prompt: str = prompty_generator(role, story_config, language)
+                                    prompt: str = prompty_story(role, story_config, language)
                                     opener = OpenAICompleter(api_key=api_key, temperature=temperature, top_p=Top_p)
                                     response: str = opener.client(content=role, prompt=prompt, model=model)
                                     empty_story.markdown(response)
@@ -208,7 +208,7 @@ with sidebar:
                                         "You are a professional, creative, and attractive scriptwriter. "
                                         "You are skilled in creating engaging and structured scripts. "
                                     )
-                                    prompt: str = prompty_generator(role, story_config, language)
+                                    prompt: str = prompty_story(role, story_config, language)
                                     seeker = DeepSeekCompleter(api_key=api_key, temperature=temperature)
                                     response: str = seeker.client(content=role, prompt=prompt, model=model)
                                     empty_story.markdown(response)
