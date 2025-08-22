@@ -123,6 +123,15 @@ with sidebar:
                     "OpenAi Model", ["gpt-3.5-turbo", "gpt-4.1-mini", "gpt-5"], index=1, disabled=False,
                     help="Select the OpenAI model to use.",
                 )
+                match model:
+                    case "gpt-3.5-turbo":
+                        caption(r"Cost — Input: **\$0.50**, Output: **\$1.50** / 1M tokens")
+                    case "gpt-4.1-mini":
+                        caption(r"Cost — Input: **\$0.40**, Output: **\$1.60** / 1M tokens")
+                    case "gpt-5":
+                        caption(r"Cost — Input: **\$1.25**, Output: **\$10.00** / 1M tokens")
+                    case _:
+                        caption("No cost information available for this model.")
                 api_key: str = text_input(
                     "OpenAI API Key",
                     max_chars=164, type="password",
