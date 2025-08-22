@@ -27,6 +27,7 @@
 
 ### Docs
 
+- remove duplicate entries in CHANGELOG.md for improved clarity ([eae5a3f](https://github.com///commit/eae5a3f00060c23beeb68ec4f6302117899856b5))
 - enhance about.py with bullet points for improved readability ([d39645a](https://github.com///commit/d39645acb0ef082d87e70eec8fd90f9c6f7f2afa))
 - update CHANGELOG.md to include recent documentation updates and improve organization ([dbfa9c8](https://github.com///commit/dbfa9c88b8fe003b44d574e10859fe0820708b64))
 - update Chinese README.md to correct the Streamlit application link ([1243bcc](https://github.com///commit/1243bcc43e0fff42e7c60154ec28a7fb3fa2348a))
@@ -39,4 +40,9 @@
 - enhance Chinese README.md with detailed application features and target audience descriptions ([bc85a90](https://github.com///commit/bc85a90bcc7afe4a1fb673f821391fa0443a7ae2))
 - enhance README.md with detailed features and target audience descriptions ([5794f63](https://github.com///commit/5794f6308feada0950f6688418bafafc54c5f50c))
 - update README.md for improved feature descriptions formatting ([bc86d1a](https://github.com///commit/bc86d1ab4a4f82f012f5f963610f5651ec8d2725))
+
+### Code Refactoring
+
+- rename prompty_generator to prompty_story and update related prompt generation details ([caf3157](https://github.com///commit/caf3157b1fedb6bf859012f26fcba843049d53ce))
+- rename prompty_generator to prompty_story and enhance prompt generation details ([8410cc1](https://github.com///commit/8410cc18c5eed8aef8878685669c264ddf3e9559))
 
