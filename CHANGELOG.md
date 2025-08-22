@@ -5,6 +5,8 @@
 
 ### Features
 
+- update layout.py to include storyboard page and update titles ([d99a31c](https://github.com///commit/d99a31c964a6898f3cb7b0bc032e69246abb61a3))
+- add storyboard.py file with initial metadata ([25326c3](https://github.com///commit/25326c3e4fca400dcafc0d4ca68dfca98e1a6259))
 - add cost information for OpenAI models in story.py ([6fbcf72](https://github.com///commit/6fbcf7238625aa4d75d8418f4f5fdad1d0064ebe))
 - implement interactive story generation interface with model selection and configuration options ([483fc81](https://github.com///commit/483fc81ea28e5399ed63c97621d56a282b7b6479))
 - update about.py with concise application description and enhanced feature highlights ([b8a0462](https://github.com///commit/b8a0462e1935f485ad3b63ec30fded3a62fdb821))
@@ -28,6 +30,7 @@
 
 ### Docs
 
+- update CHANGELOG.md to include cost information for OpenAI models ([d2728e8](https://github.com///commit/d2728e8cc315805643108aaa85d11726f208d72b))
 - remove duplicate entries in CHANGELOG.md for improved clarity ([6f6d3b7](https://github.com///commit/6f6d3b7b35f05b138f273a0b0dea07d6d1d33b1a))
 - enhance about.py with bullet points for improved readability ([d39645a](https://github.com///commit/d39645acb0ef082d87e70eec8fd90f9c6f7f2afa))
 - update CHANGELOG.md to include recent documentation updates and improve organization ([dbfa9c8](https://github.com///commit/dbfa9c88b8fe003b44d574e10859fe0820708b64))
