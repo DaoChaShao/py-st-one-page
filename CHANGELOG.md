@@ -5,6 +5,7 @@
 
 ### Features
 
+- add cost information for OpenAI models in story.py ([6fbcf72](https://github.com///commit/6fbcf7238625aa4d75d8418f4f5fdad1d0064ebe))
 - implement interactive story generation interface with model selection and configuration options ([483fc81](https://github.com///commit/483fc81ea28e5399ed63c97621d56a282b7b6479))
 - update about.py with concise application description and enhanced feature highlights ([b8a0462](https://github.com///commit/b8a0462e1935f485ad3b63ec30fded3a62fdb821))
 - add pandas and pandas-stubs to requirements for data manipulation support ([f19e37b](https://github.com///commit/f19e37bb462cd7b8d9ebd2497f1796fa925d149b))
@@ -27,7 +28,7 @@
 
 ### Docs
 
-- remove duplicate entries in CHANGELOG.md for improved clarity ([eae5a3f](https://github.com///commit/eae5a3f00060c23beeb68ec4f6302117899856b5))
+- remove duplicate entries in CHANGELOG.md for improved clarity ([6f6d3b7](https://github.com///commit/6f6d3b7b35f05b138f273a0b0dea07d6d1d33b1a))
 - enhance about.py with bullet points for improved readability ([d39645a](https://github.com///commit/d39645acb0ef082d87e70eec8fd90f9c6f7f2afa))
 - update CHANGELOG.md to include recent documentation updates and improve organization ([dbfa9c8](https://github.com///commit/dbfa9c88b8fe003b44d574e10859fe0820708b64))
 - update Chinese README.md to correct the Streamlit application link ([1243bcc](https://github.com///commit/1243bcc43e0fff42e7c60154ec28a7fb3fa2348a))
