@@ -5,6 +5,8 @@
 
 ### Features
 
+- enhance Chinese README.md with new features for storyboard image generation and visual customization ([55f740d](https://github.com///commit/55f740d39f9fc4714edcd15e54bf0e8eb912a753))
+- update README.md to clarify features for events analysis and storyboard image generation ([252e755](https://github.com///commit/252e75520ef4de51862000e2b2b7758d758dd5a4))
 - enhance README.md with new features for storyboard image generation and visual customization ([4c90516](https://github.com///commit/4c90516315360ba0c85fca15f15cecf45f116f24))
 - update about.py with additional features and customization options for story generation ([4e708ca](https://github.com///commit/4e708caea184b2d78a74c0b772bdfbb75742fc1a))
 - add storyboard generation interface with customizable settings and OpenAI integration ([7f6ff6d](https://github.com///commit/7f6ff6d50115b9b8b514e1e46e42ec582c5449e7))
@@ -40,6 +42,7 @@
 
 ### Chore
 
+- update CHANGELOG.md to include recent enhancements and features ([d0501f0](https://github.com///commit/d0501f01c3ad05bf4edc06c22c3946f969c48ce8))
 - update CHANGELOG.md to include recent bug fixes and improvements ([d82de87](https://github.com///commit/d82de87f967ba5cf5f7091a7c15f7ca971687931))
 - update CHANGELOG.md to reflect recent feature additions and improvements ([53eb95d](https://github.com///commit/53eb95d31803e7e9ad35710122626fb00633ac06))
 
