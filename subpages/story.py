@@ -8,15 +8,18 @@
 
 from pandas import DataFrame
 from streamlit import (empty, sidebar, subheader, selectbox, caption,
-                       slider, text_input, button, spinner, )
+                       slider, text_input, button, spinner, session_state)
 
 from utils.helper import Timer, prompty_story
-from utils.models import OpenAICompleter, DeepSeekCompleter
+from utils.models import OpenAITextCompleter, DeepSeekCompleter
 
 empty_messages = empty()
 empty_tables = empty()
 empty_text_area = empty()
 empty_story = empty()
+
+if "story" not in session_state:
+    session_state["story"] = ""
 
 with sidebar:
     subheader("Story Style")
@@ -149,29 +152,37 @@ with sidebar:
                         "The OpenAI API key is valid. Please enter a story theme or a story description."
                     )
 
-                    story_theme: str = empty_text_area.text_area(
-                        "Story Theme or Story Description", max_chars=100,
-                        placeholder="Please enter a story theme or a story description within 100 characters.",
-                        help="Please enter a story theme or a story description",
-                    )
-                    if story_theme != "":
-                        empty_messages.info("You can click the button to generate a new story script.")
+                    if session_state.story != "":
+                        empty_story.markdown(session_state.story)
+                    else:
 
-                        if button(
-                                "Generate a New Story Script", type="primary", use_container_width=True,
-                                help="Click to generate a new story script using the selected model and parameters."
-                        ):
-                            with Timer("Generate a New Story Script") as timer:
-                                with spinner("Generating Story Script"):
-                                    role: str = (
-                                        "You are a professional, creative, and attractive scriptwriter. "
-                                        "You are skilled in creating engaging and structured scripts. "
-                                    )
-                                    prompt: str = prompty_story(role, story_config, language)
-                                    opener = OpenAICompleter(api_key=api_key, temperature=temperature, top_p=Top_p)
-                                    response: str = opener.client(content=role, prompt=prompt, model=model)
-                                    empty_story.markdown(response)
-                            empty_messages.success(timer)
+                        story_theme: str = empty_text_area.text_area(
+                            "Story Theme or Story Description", max_chars=100,
+                            placeholder="Please enter a story theme or a story description within 100 characters.",
+                            help="Please enter a story theme or a story description",
+                        )
+                        if story_theme != "":
+                            empty_messages.info("You can click the button to generate a new story script.")
+
+                            if button(
+                                    "Generate a New Story Script", type="primary", use_container_width=True,
+                                    help="Click to generate a new story script using the selected model and parameters."
+                            ):
+                                with Timer("Generate a New Story Script") as timer:
+                                    with spinner("Generating Story Script"):
+                                        role: str = (
+                                            "You are a professional, creative, and attractive scriptwriter. "
+                                            "You are skilled in creating engaging and structured scripts. "
+                                        )
+                                        prompt: str = prompty_story(role, story_config, language)
+                                        opener = OpenAITextCompleter(
+                                            api_key=api_key,
+                                            temperature=temperature,
+                                            top_p=Top_p
+                                        )
+                                        session_state["story"] = opener.client(content=role, prompt=prompt, model=model)
+                                        empty_story.markdown(session_state.story)
+                                empty_messages.success(timer)
             case "DeepSeek":
                 subheader("DeepSeek Parameters")
                 temperature: float = slider(
@@ -199,29 +210,32 @@ with sidebar:
                         "The DeepSeek API key is valid. Please enter a story theme or a story description"
                     )
 
-                    story_theme: str = empty_text_area.text_area(
-                        "Story Theme or Story Description", max_chars=100,
-                        placeholder="Please enter a story theme or a story description within 100 characters.",
-                        help="Please enter a story theme or a story description",
-                    )
-                    if story_theme != "":
-                        empty_messages.info("You can click the button to generate a new story script.")
+                    if session_state.story != "":
+                        empty_story.markdown(session_state.story)
+                    else:
+                        story_theme: str = empty_text_area.text_area(
+                            "Story Theme or Story Description", max_chars=100,
+                            placeholder="Please enter a story theme or a story description within 100 characters.",
+                            help="Please enter a story theme or a story description",
+                        )
+                        if story_theme != "":
+                            empty_messages.info("You can click the button to generate a new story script.")
 
-                        if button(
-                                "Generate a New Story Script", type="primary", use_container_width=True,
-                                help="Click to generate a new story script using the selected model and parameters."
-                        ):
-                            with Timer("Generate a New Story Script") as timer:
-                                with spinner("Generating Story Script"):
-                                    role: str = (
-                                        "You are a professional, creative, and attractive scriptwriter. "
-                                        "You are skilled in creating engaging and structured scripts. "
-                                    )
-                                    prompt: str = prompty_story(role, story_config, language)
-                                    seeker = DeepSeekCompleter(api_key=api_key, temperature=temperature)
-                                    response: str = seeker.client(content=role, prompt=prompt, model=model)
-                                    empty_story.markdown(response)
-                            empty_messages.success(timer)
+                            if button(
+                                    "Generate a New Story Script", type="primary", use_container_width=True,
+                                    help="Click to generate a new story script using the selected model and parameters."
+                            ):
+                                with Timer("Generate a New Story Script") as timer:
+                                    with spinner("Generating Story Script"):
+                                        role: str = (
+                                            "You are a professional, creative, and attractive scriptwriter. "
+                                            "You are skilled in creating engaging and structured scripts. "
+                                        )
+                                        prompt: str = prompty_story(role, story_config, language)
+                                        seeker = DeepSeekCompleter(api_key=api_key, temperature=temperature)
+                                        session_state["story"] = seeker.client(content=role, prompt=prompt, model=model)
+                                        empty_story.markdown(session_state.story)
+                                empty_messages.success(timer)
             case _:
                 empty_messages.error(f"Model {model} is not supported yet. Please choose another model.")
     else:
