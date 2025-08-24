@@ -33,6 +33,14 @@
 - add requirements.txt for project dependencies ([432c109](https://github.com///commit/432c1094dfd28108ebb9eb32b010d55722e8d78b))
 - add pyproject.toml for changelog configuration ([6d72ba4](https://github.com///commit/6d72ba44ee520476e5f0eae849c1e9a340dfa484))
 
+### Bug Fixes
+
+- correct spelling of "customisation" in about.py ([a58b160](https://github.com///commit/a58b160e2a7b10ed471d62fa53112152dbafea18))
+
+### Chore
+
+- update CHANGELOG.md to reflect recent feature additions and improvements ([53eb95d](https://github.com///commit/53eb95d31803e7e9ad35710122626fb00633ac06))
+
 ### Docs
 
 - update CHANGELOG.md to reflect recent feature additions and improvements ([e64780d](https://github.com///commit/e64780d3ea783d746e44848773b5f58bea871540))
