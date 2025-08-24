@@ -5,6 +5,7 @@
 
 ### Features
 
+- enhance README.md with new features for storyboard image generation and visual customization ([4c90516](https://github.com///commit/4c90516315360ba0c85fca15f15cecf45f116f24))
 - update about.py with additional features and customization options for story generation ([4e708ca](https://github.com///commit/4e708caea184b2d78a74c0b772bdfbb75742fc1a))
 - add storyboard generation interface with customizable settings and OpenAI integration ([7f6ff6d](https://github.com///commit/7f6ff6d50115b9b8b514e1e46e42ec582c5449e7))
 - implement session state for story generation and update completer usage ([b036efc](https://github.com///commit/b036efc18f84c1a1cb85541c0c32d8246b0830af))
@@ -39,6 +40,7 @@
 
 ### Chore
 
+- update CHANGELOG.md to include recent bug fixes and improvements ([d82de87](https://github.com///commit/d82de87f967ba5cf5f7091a7c15f7ca971687931))
 - update CHANGELOG.md to reflect recent feature additions and improvements ([53eb95d](https://github.com///commit/53eb95d31803e7e9ad35710122626fb00633ac06))
 
 ### Docs
