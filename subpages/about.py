@@ -18,7 +18,7 @@ with expander("About this application", expanded=True):
     caption("+ Seamlessly integrates with OpenAI and DeepSeek models for flexible, high-quality storytelling.")
     caption("+ Perfect for writers, educators, and anyone exploring creative narratives.")
     caption("+ Supports storyboard image generation with multiple illustration styles and moods.")
-    caption("+ Allows customization of line types, colour tones, and visual composition for each scene.")
+    caption("+ Allows customisation of line types, colour tones, and visual composition for each scene.")
     caption("+ Stores generated images in session state for easy review and further editing.")
     caption("+ Enables step-by-step story event analysis and image prompt creation for efficient workflow.")
     caption("+ Fully interactive with sidebar controls for model, API key, resolution, and image quality selection.")
