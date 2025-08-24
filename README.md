@@ -32,6 +32,13 @@ and presentation format.
   adjustable parameters like temperature and top-p for creative control.
 + **Interactive Streamlit Interface**: Intuitive sidebar inputs, live previews, and editable configuration tables for
   seamless story customisation.
++ **Storyboard Image Generation**: Supports storyboard image generation with multiple illustration styles and moods.
++ **Visual Customisation**: Allows customisation of line types, colour tones, and visual composition for each scene.
++ **Session State Management**: Stores generated images in session state for easy review and further editing.
++ **Event-to-Prompt Workflow**: Enables step-by-step story event analysis and image prompt creation for efficient
+  workflow.
++ **Interactive Sidebar Controls**: Fully interactive with sidebar controls for model, API key, resolution, and image
+  quality selection.
 
 **For every story that needs to be told, start with One Page.**
 
