@@ -1,10 +1,15 @@
 <!-- insertion marker -->
 <a name="0.1.0"></a>
 
-## [0.1.0](https://github.com///compare/3113e01fd4e60c8338c2ff0f9a6fb6eba364800a...0.1.0) (2025-08-22)
+## [0.1.0](https://github.com///compare/3113e01fd4e60c8338c2ff0f9a6fb6eba364800a...0.1.0) (2025-08-24)
 
 ### Features
 
+- update about.py with additional features and customization options for story generation ([4e708ca](https://github.com///commit/4e708caea184b2d78a74c0b772bdfbb75742fc1a))
+- add storyboard generation interface with customizable settings and OpenAI integration ([7f6ff6d](https://github.com///commit/7f6ff6d50115b9b8b514e1e46e42ec582c5449e7))
+- implement session state for story generation and update completer usage ([b036efc](https://github.com///commit/b036efc18f84c1a1cb85541c0c32d8246b0830af))
+- add OpenAIImageCompleter class for image generation and update OpenAITextCompleter parameters ([fb47ca3](https://github.com///commit/fb47ca3d168d07770c4b17f270c7570d7518a367))
+- enhance helper.py with additional output instructions and event prompt generation ([da480bb](https://github.com///commit/da480bb7a01644a0c0e07e25b34d4043e87e8f6d))
 - update layout.py to include storyboard page and update titles ([d99a31c](https://github.com///commit/d99a31c964a6898f3cb7b0bc032e69246abb61a3))
 - add storyboard.py file with initial metadata ([25326c3](https://github.com///commit/25326c3e4fca400dcafc0d4ca68dfca98e1a6259))
 - add cost information for OpenAI models in story.py ([6fbcf72](https://github.com///commit/6fbcf7238625aa4d75d8418f4f5fdad1d0064ebe))
@@ -30,6 +35,7 @@
 
 ### Docs
 
+- update CHANGELOG.md to reflect recent feature additions and improvements ([e64780d](https://github.com///commit/e64780d3ea783d746e44848773b5f58bea871540))
 - update CHANGELOG.md to include cost information for OpenAI models ([d2728e8](https://github.com///commit/d2728e8cc315805643108aaa85d11726f208d72b))
 - remove duplicate entries in CHANGELOG.md for improved clarity ([6f6d3b7](https://github.com///commit/6f6d3b7b35f05b138f273a0b0dea07d6d1d33b1a))
 - enhance about.py with bullet points for improved readability ([d39645a](https://github.com///commit/d39645acb0ef082d87e70eec8fd90f9c6f7f2afa))
